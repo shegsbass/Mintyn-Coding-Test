@@ -59,7 +59,6 @@ dependencies {
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
-    implementation("com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
@@ -73,9 +72,9 @@ dependencies {
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation ("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1")
 
-//    implementation ("com.google.android.gms:play-services-vision:20.1.2")
-//    implementation ("com.google.firebase:firebase-core:17.5.0")
-//    implementation ("com.google.firebase:firebase-ml-vision:24.1.0")
+    implementation ("com.googlecode.tesseract.android:tesseract-android:3.09.09")
+    implementation ("com.googlecode.leptonica.android:leptonica-android:1.73@aar")
+    implementation ("com.rmtheis:tess-two:9.1.0")
 
     testImplementation ("junit:junit:4.13.2")
     testImplementation ("org.mockito:mockito-core:3.12.4")

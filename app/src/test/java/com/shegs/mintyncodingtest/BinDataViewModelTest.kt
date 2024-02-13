@@ -81,6 +81,4 @@ class BinDataViewModelTest {
         assertEquals(null, binDataViewModel.binDataModel)
     }
 
-    // Add more tests for different scenarios
-
 }
